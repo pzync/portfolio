@@ -5,8 +5,9 @@
 
 .Writing h3 {
   margin-bottom: 8px;
-  font-weight: 700;
-  letter-spacing: -0.01em;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 30px;
 }
 
 .Writing a {
@@ -21,6 +22,6 @@
 
 .Writing p {
   margin-top: 0;
-  color: #09051d84;
+  color: #10051d90;
   line-height: 26px;
 }

@@ -20,8 +20,8 @@ const Header = ({ siteTitle }) => (
         <Link to="#writing" className="NavLink">
           Writing
         </Link>
-        <Link to="/contact" className="NavLink">
-          Contact
+        <Link to="/fun" className="NavLink">
+          Cabinet
         </Link>
       </div>
     </div>

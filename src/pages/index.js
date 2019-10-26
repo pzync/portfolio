@@ -11,7 +11,7 @@ const IndexPage = () => (
     <div className="TextContent">
       <h3>
         Hello! I’m a Designer and Product Manager with 8+ years of experience
-        across Product Creation, User Experience (UI/UX) & Design Systems.
+        across Product Creation, User Experience (UI/UX) & Creative Direction.
         Currently, I head Design at Juspay.
       </h3>
       <p>
@@ -66,12 +66,12 @@ const IndexPage = () => (
       />
       <Writing
         title="How We Designed To Onboard 10 Million Users In 10 Days"
-        desc="And actually did it! (Behind the launch of BHIM UPI app)."
+        desc="Behind the screens of one of the most successful product launches in India."
         link="https://medium.com/p/95c7221c1512"
       />
       <Writing
-        title="Studio Ghibli And Great Product Design"
-        desc="Because great animation has a lot to teach."
+        title="Studio Ghibli And Good Product Design"
+        desc="Because great animated movies have a lot to teach."
         link="https://medium.com/white-space/5-learnings-every-product-designer-should-absolutely-steal-from-studio-ghibli-movies-6c3971fffa0?source=your_stories_page---------------------------"
       />
     </div>
