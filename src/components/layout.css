@@ -14,7 +14,7 @@ body {
 
 .TextContent {
   max-width: 680px;
-  margin: 80px auto 0 auto;
+  margin: 40px auto 0 auto;
   padding: 40px 40px;
 }
 
@@ -38,7 +38,7 @@ body {
 .WritingSection {
   max-width: 680px;
   margin: 0 auto;
-  padding: 40px 40px;
+  padding: 40px 40px 120px 40px;
 }
 
 .WritingSection .SectionTitle {
