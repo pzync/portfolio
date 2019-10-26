@@ -17,6 +17,9 @@ const Header = ({ siteTitle }) => (
         <Link to="/work" className="NavLink">
           Work
         </Link>
+        <Link to="#writing" className="NavLink">
+          Writing
+        </Link>
         <Link to="/contact" className="NavLink">
           Contact
         </Link>

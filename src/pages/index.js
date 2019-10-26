@@ -55,7 +55,9 @@ const IndexPage = () => (
       </p>
     </div>
     <div className="WritingSection">
-      <h6 className="SectionTitle">Select Writing</h6>
+      <h6 className="SectionTitle" name="writing">
+        Select Writing
+      </h6>
       <Writing
         title="Imperfect, Organic Design Is The Next Step"
         desc="On the current obsession over Pixel Perfect products. And how
