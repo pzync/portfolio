@@ -12,10 +12,24 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+@keyframes EnterAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 .TextContent {
   max-width: 680px;
   margin: 40px auto 0 auto;
   padding: 40px 40px;
+  opacity: 0;
+  animation: EnterAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .TextContent h3 {
