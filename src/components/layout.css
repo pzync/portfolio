@@ -24,12 +24,15 @@ body {
   }
 }
 
+.BodyContainer {
+  opacity: 0;
+  animation: EnterAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
 .TextContent {
   max-width: 680px;
   margin: 40px auto 0 auto;
   padding: 40px 40px;
-  opacity: 0;
-  animation: EnterAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .TextContent h3 {
