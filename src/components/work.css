@@ -1,0 +1,83 @@
+.WorkContainer {
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 80px;
+}
+
+.FirstOneThirdCol h4 {
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 40px;
+  margin-top: 0;
+}
+
+.FirstOneThirdCol {
+  grid-column: 1 / span 4;
+}
+
+.LastTwoThirdCol {
+  grid-column: 5 / span 8;
+}
+
+.LastTwoThirdCol img {
+  width: 100%;
+  height: auto;
+}
+
+.WorkCard .CardTitle {
+  font-weight: 600;
+}
+
+.WorkCard .CardDesc {
+  color: #10051d90;
+}
+
+.FullWidthCol {
+  grid-column: 1 / -1;
+}
+
+.FullWidthCol img {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+}
+
+.FirstHalfCol {
+  grid-column: 1 / span 6;
+}
+
+.FirstHalfCol img {
+  width: 100%;
+  height: auto;
+}
+
+.LastHalfCol {
+  grid-column: 7 / span 6;
+}
+
+.LastHalfCol img {
+  width: 100%;
+  height: auto;
+}
+
+.FirstTwoThirdCol {
+  grid-column: 1 / span 8;
+}
+
+.FirstTwoThirdCol img {
+  width: 100%;
+  height: auto;
+}
+
+.LastOneThirdCol {
+  grid-column: 9 / span 4;
+}
+
+.LastOneThirdCol img {
+  width: 100%;
+  height: auto;
+}
