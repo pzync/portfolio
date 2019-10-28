@@ -10,36 +10,36 @@ const IndexPage = () => (
     <div className="BodyContainer">
       <div className="TextContent">
         <h3>
-          Hello! I’m a Designer and Product Manager with 8+ years of experience
-          across Product Creation, User Experience (UI/UX) & Creative Direction.
-          Currently, I head Design at Juspay.
+          Hello! I’m a designer and product manager with 8+ years of experience
+          across product creation, user experience (UI/UX) & creative direction.
+          Currently, I head design at Juspay.
         </h3>
         <p>
           At Juspay, I’ve led the design of BHIM app which sees transaction
-          volume of ~ INR 5 billion every month. I also worked on designing the
+          volume of INR 5 billion+ every month. I also worked on designing the
           UPI Common Library. This library is currently installed on 80 million
           devices; which would become 200 million with inclusion in WhatsApp
           soon. Various other Juspay products process 7 million+ transactions
-          every single day and have Amazon, Uber, Visa, Myntra, Flipkart, Ola
-          etc as customers.
+          per day and count Amazon, Uber, Visa, Myntra, Flipkart and Ola as
+          customers.
         </p>
         <p>
           Previously, I worked as Head of Product at{" "}
           <a href="https://www.nestaway.com" target="_blank">
             Nestaway
           </a>
-          , a 1200-people company funded over USD 105 million by Tiger Global,
+          , a 1200-people company with USD 105 million invested by Tiger Global,
           Yuri Milner & Tata. I also founded The Playce, one of the largest
           coworking spaces in India that's still growing.
         </p>
         <p>
-          Overall, I have built and led teams both large n' small, shipped
+          Overall, I have built and led teams both large and small, shipped
           massive-scale products on challenging timelines and founded a
           successful business.
         </p>
         <p>
-          I also dabble in Generative Art (using Processing), prototype using
-          code and sometimes{" "}
+          I also dabble in generative art using Processing, prototype using code
+          and sometimes{" "}
           <a href="https://twitter.com/themeanstartup" target="_blank">
             {" "}
             draw
