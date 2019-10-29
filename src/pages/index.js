@@ -24,13 +24,13 @@ const IndexPage = () => (
           customers.
         </p>
         <p>
-          Previously, I worked as Head of Product at{" "}
+          Earlier, I worked as Head of Product at{" "}
           <a href="https://www.nestaway.com" target="_blank">
             Nestaway
           </a>
-          , a 1200-people company with USD 105 million invested by Tiger Global,
-          Yuri Milner & Tata. I also founded The Playce, one of the largest
-          coworking spaces in India that's still growing.
+          , a 1200-people company with USD 105 million investment from Tiger
+          Global, Yuri Milner & Tata. I also founded The Playce, one of the
+          largest coworking spaces in India that's still growing.
         </p>
         <p>
           Overall, I have built and led teams both large and small, shipped

@@ -5,12 +5,10 @@ import "./writing.css"
 
 const Writing = props => (
   <div className="Writing">
-    <h3 className="ArticleTitle">
-      <a href={props.link} target="_blank">
-        {props.title}
-      </a>
-    </h3>
-    <p className="ArticleDesc">{props.desc}</p>
+    <a href={props.link} target="_blank">
+      <h3 className="ArticleTitle"> {props.title}</h3>
+      <p className="ArticleDesc">{props.desc}</p>
+    </a>
   </div>
 )
 
