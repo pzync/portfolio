@@ -22,7 +22,10 @@ const Work = () => (
           successful fundraising pitches.
         </p>
 
-        <p>Currently, a team of 11 awesome designers helps me at Juspay.</p>
+        <p>
+          Currently, a team of 11 awesome designers helps me at Juspay. My daily
+          tools of trade include Sketch, Principle, Flinto, Invision, and React.
+        </p>
       </div>
       <div className="FirstOneThirdCol">
         <h4>Featured Work</h4>
