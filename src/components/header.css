@@ -11,6 +11,8 @@
   grid-template-columns: 1fr auto;
   padding: 0 40px;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .HeaderGroup a:hover {

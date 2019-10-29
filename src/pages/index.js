@@ -15,13 +15,13 @@ const IndexPage = () => (
           Currently, I head design at Juspay.
         </h3>
         <p>
-          At Juspay, I’ve led the design of BHIM app which sees transaction
-          volume of INR 5 billion+ every month. I also worked on designing the
-          UPI Common Library. This library is currently installed on 80 million
-          devices; which would become 200 million with inclusion in WhatsApp
-          soon. Various other Juspay products process 7 million+ transactions
-          per day and count Amazon, Uber, Visa, Myntra, Flipkart and Ola as
-          customers.
+          At Juspay, I’ve led the design of BHIM app which processes
+          transactions worth INR 5 billion+ per month. I also worked on
+          designing the UPI Common Library. This library is currently installed
+          on 80 million devices; which would become 200 million with inclusion
+          in WhatsApp soon. Various other Juspay products process 7 million+
+          transactions per day and count Amazon, Uber, Visa, Myntra, Flipkart,
+          Vodafone and Ola as customers.
         </p>
         <p>
           Earlier, I worked as Head of Product at{" "}

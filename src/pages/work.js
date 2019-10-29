@@ -1,5 +1,4 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,6 +8,22 @@ const Work = () => (
   <Layout>
     <SEO title="Work" />
     <div className="WorkContainer">
+      <div className="LastTwoThirdCol">
+        <p>
+          I have an education in Management (from IIM Bangalore) and
+          Engineering. This, combined with a rather unbridled love for Design,
+          has given me many unique work opportunities.
+        </p>
+
+        <p>
+          Together, with some amazing teams, we have developed products that
+          millions use every day and crafted stories & brands which are still
+          going strong. I have also collaborated directly with founders on many
+          successful fundraising pitches.
+        </p>
+
+        <p>Currently, a team of 11 awesome designers helps me at Juspay.</p>
+      </div>
       <div className="FirstOneThirdCol">
         <h4>Featured Work</h4>
       </div>
