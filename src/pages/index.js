@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="BodyContainer">
-      <div className="TextContent">
+      <section className="TextContent">
         <h3>
           Hello! I’m a designer and product manager with 8+ years of experience
           across product creation, user experience (UI/UX) & creative direction.
@@ -57,14 +57,14 @@ const IndexPage = () => (
           </a>
           .
         </p>
-      </div>
-      <div className="WritingSection">
+      </section>
+      <section className="WritingSection">
         <h6 className="SectionTitle" name="writing">
           Select Writing
         </h6>
         <Writing
           title="Imperfect, Organic Design Is The Next Step"
-          desc="On the current obsession over Pixel Perfect products. And how
+          desc="On the current obsession over pixel-perfect products. And how
       ‘imperfections’ can make our designs more human."
           link="https://uxdesign.cc/imperfect-organic-design-is-the-next-step-f16942ca79b2"
         />
@@ -78,7 +78,7 @@ const IndexPage = () => (
           desc="Because great animated movies have a lot to teach."
           link="https://medium.com/white-space/5-learnings-every-product-designer-should-absolutely-steal-from-studio-ghibli-movies-6c3971fffa0?source=your_stories_page---------------------------"
         />
-      </div>
+      </section>
     </div>
   </Layout>
 )

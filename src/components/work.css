@@ -19,12 +19,47 @@
   margin-top: 80px;
 }
 
-.FullWidthCardImage {
+.WorkHighlight {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.WorkText {
+  color: #10051d90;
+  margin-top: 8px;
+}
+
+.CardImage {
   width: 100%;
   height: auto;
-  border: solid 1px #10051d20;
-  margin-top: -40px;
+  border: solid 1px #10051d10;
+  margin-bottom: 40px;
 }
+
+.WorkSection {
+  margin-top: 40px;
+}
+
+.WorkSubSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.WorkSubSection h6 {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* .FirstHalf,
+.LastHalf {
+  padding: 40px 40px;
+} */
+
 /* 
 .WorkContainer {
   max-width: 1000px;
