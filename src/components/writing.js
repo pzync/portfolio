@@ -6,7 +6,7 @@ import "./writing.css"
 const Writing = props => (
   <div className="Writing">
     <a href={props.link} target="_blank">
-      <h3 className="ArticleTitle"> {props.title}</h3>
+      <h6 className="ArticleTitle"> {props.title}</h6>
       <p className="ArticleDesc">{props.desc}</p>
     </a>
   </div>

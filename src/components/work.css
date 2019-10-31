@@ -1,3 +1,31 @@
+.CenteredTextContent {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.WorkContainer {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px 40px;
+  animation: EnterAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.SectionHeading {
+  text-transform: uppercase;
+  color: #09051d60;
+  letter-spacing: 0.2em;
+  font-size: 13px;
+  margin-top: 80px;
+}
+
+.FullWidthCardImage {
+  width: 100%;
+  height: auto;
+  border: solid 1px #10051d20;
+  margin-top: -40px;
+}
+/* 
 .WorkContainer {
   max-width: 1000px;
   margin: 40px auto;
@@ -16,6 +44,8 @@
   line-height: 40px;
   margin-top: 0;
 }
+
+
 
 .FirstOneThirdCol {
   grid-column: 1 / span 4;
@@ -82,4 +112,4 @@
 .LastOneThirdCol img {
   width: 100%;
   height: auto;
-}
+} */
