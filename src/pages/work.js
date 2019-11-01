@@ -47,7 +47,7 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Conceptualized the first-ever UI for UPI onboarding{" "}
+            Conceptualized the first-ever UI for UPI onboarding flow{" "}
           </h5>
           <p className="WorkText">
             This flow has now become a standard for millions of users and all
