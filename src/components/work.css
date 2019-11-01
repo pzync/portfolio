@@ -35,7 +35,7 @@
   width: 100%;
   height: auto;
 
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .ImageBorder {
@@ -44,6 +44,19 @@
 
 .WorkSection {
   margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.ImageHalfGrid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-auto-flow: rows; */
+  /* grid-auto-rows: auto; */
+}
+
+.TallImage {
+  grid-row: span 2;
 }
 
 /* .WorkSubSection {

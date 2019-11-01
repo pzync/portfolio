@@ -29,6 +29,7 @@ const Work = () => (
       </section>
       <div>
         <h3 className="SectionHeading CenteredTextContent">Featured Work</h3>
+
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
             Led design of a 1mb app that processes INR 5 billion / month{" "}
@@ -43,6 +44,7 @@ const Work = () => (
             src={require("../images/Bhim-app.jpg")}
           />
         </section>
+
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
             Conceptualized the first-ever UI for UPI onboarding{" "}
@@ -57,6 +59,7 @@ const Work = () => (
             src={require("../images/UPI-onboarding.jpg")}
           />
         </section>
+
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
             Redesigned a mobile payments flow with 6 million txn / day{" "}
@@ -66,9 +69,33 @@ const Work = () => (
             and transaction time. Clients include Zomato, Myntra, Swiggy,
             Flipkart et al.
           </p>
+          <div className="ImageHalfGrid">
+            <img
+              className="CardImage TallImage"
+              src={require("../images/Godel-redesign.jpg")}
+            />
+            <img
+              className="CardImage WideImage"
+              src={require("../images/Godel-manual.jpg")}
+            />
+            <img
+              className="CardImage WideImage"
+              src={require("../images/Godel-otp.jpg")}
+            />
+          </div>
+        </section>
+
+        <section className="CenteredTextContent WorkSection">
+          <h5 className="WorkHighlight">
+            Designed Juspay Checkout - desktop and mobile.{" "}
+          </h5>
+          <p className="WorkText">
+            Upto 2% jump in payment success rates with reduced decision burden
+            and transaction time. Clients include Bigbasket, Vodafone et al.
+          </p>
           <img
             className="CardImage"
-            src={require("../images/Godel-redesign.jpg")}
+            src={require("../images/Desktop-checkout.jpg")}
           />
         </section>
         {/* <section className="WorkSection">
