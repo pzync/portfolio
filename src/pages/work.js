@@ -31,18 +31,21 @@ const Work = () => (
         <h3 className="SectionHeading CenteredTextContent">Featured Work</h3>
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Led design of a 1Mb app that processes INR 5 billion / month{" "}
+            Led design of a 1mb app that processes INR 5 billion / month{" "}
           </h5>
           <p className="WorkText">
             BHIM is the #08 payments app in the world. Design praised by the
             World Bank. Mary Meeker highlighted BHIM in her '2017 Internet
             Trends Report'.
           </p>
-          <img className="CardImage" src={require("../images/Bhim-app.jpg")} />
+          <img
+            className="CardImage ImageBorder"
+            src={require("../images/Bhim-app.jpg")}
+          />
         </section>
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Conceptualized the first-ever UI of UPI onboarding flow{" "}
+            Conceptualized the first-ever UI for UPI onboarding{" "}
           </h5>
           <p className="WorkText">
             This flow has now become a standard for millions of users and all
@@ -54,7 +57,21 @@ const Work = () => (
             src={require("../images/UPI-onboarding.jpg")}
           />
         </section>
-        <section className="WorkSection">
+        <section className="CenteredTextContent WorkSection">
+          <h5 className="WorkHighlight">
+            Redesigned a mobile payments flow with 6 million txn / day{" "}
+          </h5>
+          <p className="WorkText">
+            Upto 2% jump in payment success rates with reduced decision burden
+            and transaction time. Clients include Zomato, Myntra, Swiggy,
+            Flipkart et al.
+          </p>
+          <img
+            className="CardImage"
+            src={require("../images/Godel-redesign.jpg")}
+          />
+        </section>
+        {/* <section className="WorkSection">
           <div className="CenteredTextContent">
             <h5 className="WorkHighlight">
               WhatsApp P2P money transfer & the UPI Common Library{" "}
@@ -80,7 +97,7 @@ const Work = () => (
               <h6>UPI Common Library</h6>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </div>
   </Layout>

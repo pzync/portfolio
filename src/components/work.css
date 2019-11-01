@@ -34,15 +34,19 @@
 .CardImage {
   width: 100%;
   height: auto;
-  border: solid 1px #10051d10;
+
   margin-bottom: 40px;
+}
+
+.ImageBorder {
+  border: solid 1px #10051d10;
 }
 
 .WorkSection {
   margin-top: 40px;
 }
 
-.WorkSubSection {
+/* .WorkSubSection {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
@@ -53,7 +57,7 @@
   margin-top: 8px;
   font-weight: 600;
   font-size: 16px;
-}
+} */
 
 /* .FirstHalf,
 .LastHalf {
