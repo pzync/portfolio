@@ -32,7 +32,7 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Led design of a 1mb app that processes INR 5 billion / month{" "}
+            Led design of a 1Mb app that processes INR 5 billion / month{" "}
           </h5>
           <p className="WorkText">
             BHIM is the #08 payments app in the world. Design praised by the
@@ -102,11 +102,11 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Reimagined the Session Log to map a single user journey{" "}
+            Visualized the Session Log to map a single user journey{" "}
           </h5>
           <p className="WorkText">
             An experiment in collaboration with product managers evolved into
-            this internal dashboard. Focused on Pro-users. Designed for large
+            this internal tooling. Focused on Pro-users. Designed for large
             monitors.
           </p>
           <img
