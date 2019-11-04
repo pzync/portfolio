@@ -120,8 +120,8 @@ const Work = () => (
             Wrote & designed Juspay website for clearer brand recall{" "}
           </h5>
           <p className="WorkText">
-            The aim was to communicate our market positionning to merchants and
-            our scale to investors more effectively .
+            The aim was to communicate our market positioning to merchants and
+            our scale to investors more effectively.
           </p>
           <img
             className="CardImage ImageBorder"
