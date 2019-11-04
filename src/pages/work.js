@@ -102,7 +102,7 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Visualized the Session Log to map a single user journey{" "}
+            Reimagined the Session Log to visualize user journeys{" "}
           </h5>
           <p className="WorkText">
             An experiment in collaboration with product managers evolved into
@@ -112,6 +112,20 @@ const Work = () => (
           <img
             className="CardImage"
             src={require("../images/Session-log.jpg")}
+          />
+        </section>
+
+        <section className="CenteredTextContent WorkSection">
+          <h5 className="WorkHighlight">
+            Wrote & designed Juspay website for clearer brand recall{" "}
+          </h5>
+          <p className="WorkText">
+            The aim was to communicate our market positionning to merchants and
+            our scale to investors more effectively .
+          </p>
+          <img
+            className="CardImage ImageBorder"
+            src={require("../images/Juspay-website.jpg")}
           />
         </section>
 
