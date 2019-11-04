@@ -23,7 +23,7 @@ const Work = () => (
         </p>
 
         <p>
-          Currently, a team of 11 awesome designers helps me at Juspay. My daily
+          Currently, I lead a team of 11 awesome designers at Juspay. My daily
           tools of trade include Sketch, Principle, Flinto, Invision, and React.
         </p>
       </section>
@@ -47,7 +47,7 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Conceptualized the first-ever UI for UPI onboarding flow{" "}
+            Conceptualized the first-ever UI for UPI onboarding{" "}
           </h5>
           <p className="WorkText">
             This flow has now become a standard for millions of users and all
@@ -62,7 +62,7 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Redesigned a mobile payments flow with 6 million txn / day{" "}
+            Redesigned a mobile payment flow with 6 million txn / day{" "}
           </h5>
           <p className="WorkText">
             Upto 2% jump in payment success rates with reduced decision burden
@@ -87,17 +87,34 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Designed Juspay Checkout - desktop and mobile.{" "}
+            Helped build Juspay's Checkout ecosystem of products{" "}
           </h5>
           <p className="WorkText">
-            Upto 2% jump in payment success rates with reduced decision burden
-            and transaction time. Clients include Bigbasket, Vodafone et al.
+            An adaptive design system of flows & components. Clients include
+            some of India's largest grocery e-tailers, telecom firms and food
+            delivery apps.
           </p>
           <img
             className="CardImage"
             src={require("../images/Desktop-checkout.jpg")}
           />
         </section>
+
+        <section className="CenteredTextContent WorkSection">
+          <h5 className="WorkHighlight">
+            Reimagined the Session Log to map a single user journey{" "}
+          </h5>
+          <p className="WorkText">
+            An experiment in collaboration with product managers evolved into
+            this internal dashboard. Focused on Pro-users. Designed for large
+            monitors.
+          </p>
+          <img
+            className="CardImage"
+            src={require("../images/Session-log.jpg")}
+          />
+        </section>
+
         {/* <section className="WorkSection">
           <div className="CenteredTextContent">
             <h5 className="WorkHighlight">
