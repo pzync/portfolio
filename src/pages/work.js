@@ -120,12 +120,40 @@ const Work = () => (
             Wrote & designed Juspay website for clearer brand recall{" "}
           </h5>
           <p className="WorkText">
-            The aim was to communicate our market positioning to merchants and
-            our scale to investors more effectively.
+            The aim was to communicate Juspay's market positioning to merchants
+            and scale to investors more effectively.
           </p>
           <img
             className="CardImage ImageBorder"
             src={require("../images/Juspay-website.jpg")}
+          />
+        </section>
+
+        <section className="CenteredTextContent WorkSection">
+          <h5 className="WorkHighlight">
+            Designed a webapp for book quotes and annotations{" "}
+          </h5>
+          <p className="WorkText">
+            To offer an undistracted reading environment and a better discovery
+            experience. Done using websafe fonts only.
+          </p>
+          <img
+            className="CardImage ImageBorder"
+            src={require("../images/Xook.jpg")}
+          />
+        </section>
+
+        <section className="CenteredTextContent WorkSection">
+          <h5 className="WorkHighlight">
+            Led product + creative at a $100 million funded company{" "}
+          </h5>
+          <p className="WorkText">
+            To offer an undistracted reading environment and a better discovery
+            experience. Done using websafe fonts only.
+          </p>
+          <img
+            className="CardImage ImageBorder"
+            src={require("../images/Xook.jpg")}
           />
         </section>
 

@@ -19,7 +19,7 @@ const IndexPage = () => (
           transactions worth INR 5 billion+ per month. I also worked on
           designing the UPI Common Library. This library is currently installed
           on 80 million devices; which would become 200 million with inclusion
-          in WhatsApp soon. Various other Juspay products process 7 million+
+          in WhatsApp soon. Various other Juspay products process 6 million+
           transactions per day and count Amazon, Uber, Visa, Myntra, Flipkart,
           Vodafone and Ola as customers.
         </p>
