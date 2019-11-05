@@ -10,7 +10,7 @@ const Work = () => (
     <div className="WorkContainer">
       <section className="CenteredTextContent">
         <p>
-          I have an education in management (MBA from IIM Bangalore) and
+          I have an education in management (an MBA from IIM Bangalore) and
           engineering. This, combined with a rather unbridled love for design,
           has given me many unique work opportunities.
         </p>
@@ -23,8 +23,8 @@ const Work = () => (
         </p>
 
         <p>
-          Currently, I lead a team of 11 awesome designers at Juspay. My daily
-          tools of trade include Sketch, Principle, Flinto, Invision, and React.
+          My daily tools of trade include Sketch, Principle, Flinto, Invision,
+          and React.
         </p>
       </section>
       <div>
@@ -62,12 +62,12 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Redesigned a mobile payment flow with 6 million txn / day{" "}
+            Redesigned a payment flow that does 6 million txn per day{" "}
           </h5>
           <p className="WorkText">
-            Upto 2% jump in payment success rates with reduced decision burden
-            and transaction time. Clients include Zomato, Myntra, Swiggy,
-            Flipkart et al.
+            Upto 2% jump in success rates with less decision burden and
+            transaction time. Clients include Zomato, Myntra, Swiggy, Flipkart
+            et al.
           </p>
           <div className="ImageHalfGrid">
             <img
@@ -106,8 +106,8 @@ const Work = () => (
           </h5>
           <p className="WorkText">
             An experiment in collaboration with product managers evolved into
-            this internal tooling. Focused on Pro-users. Designed for large
-            monitors.
+            this internal tooling. Focused on Pro-users. Designed for larger
+            displays.
           </p>
           <img
             className="CardImage"
@@ -120,8 +120,8 @@ const Work = () => (
             Wrote & designed Juspay website for clearer brand recall{" "}
           </h5>
           <p className="WorkText">
-            The aim was to communicate Juspay's market positioning to merchants
-            and scale to investors more effectively.
+            With the aim of communicating Juspay's market positioning to
+            merchants and scale to investors more effectively.
           </p>
           <img
             className="CardImage ImageBorder"
@@ -137,26 +137,51 @@ const Work = () => (
             To offer an undistracted reading environment and a better discovery
             experience. Done using websafe fonts only.
           </p>
-          <img
-            className="CardImage ImageBorder"
-            src={require("../images/Xook.jpg")}
-          />
+          <img className="CardImage" src={require("../images/Xook.jpg")} />
         </section>
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Led product + creative at a $100 million funded company{" "}
+            Led product + creative at a $100-million funded company{" "}
           </h5>
           <p className="WorkText">
-            To offer an undistracted reading environment and a better discovery
-            experience. Done using websafe fonts only.
+            Worked on developing products for tenants, house-owners, and agents
+            at Nestaway. Directed design and content for PR and marketing
+            campaigns.
           </p>
-          <img
-            className="CardImage ImageBorder"
-            src={require("../images/Xook.jpg")}
-          />
+          <img className="CardImage" src={require("../images/Nestaway.jpg")} />
         </section>
 
+        <section className="CenteredTextContent WorkSection">
+          <h5 className="WorkHighlight">
+            Consulted on design for a Gates Foundation project{" "}
+          </h5>
+          <p className="WorkText">
+            This will be the largest learning management platform for teachers
+            across India and Southeast Asia. I consulted on the initial product
+            designs for web & mobile.
+          </p>
+        </section>
+
+        <section className="CenteredTextContent WorkSection">
+          <h5 className="WorkHighlight">
+            Crafted an early prototype of Consent Architecture for India{" "}
+          </h5>
+          <p className="WorkText">
+            It's a nation-wide system which would place users firmly in control
+            of their data. Upon request from service providers (insurance,
+            credit etc), the user can grant access to only the required data.
+            And that too for a restricted period.
+          </p>
+        </section>
+
+        <section className="CenteredTextContent WorkSection">
+          <h5 className="WorkHighlight">
+            Currently leading the design of a product for one of the major
+            international card networks{" "}
+          </h5>
+          <p className="WorkText">To be launched across India and Europe.</p>
+        </section>
         {/* <section className="WorkSection">
           <div className="CenteredTextContent">
             <h5 className="WorkHighlight">
