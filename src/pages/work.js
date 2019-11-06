@@ -10,7 +10,7 @@ const Work = () => (
     <div className="WorkContainer">
       <section className="CenteredTextContent">
         <p>
-          I have an education in management (an MBA from IIM Bangalore) and
+          I have an education in management (MBA from IIM Bangalore) and
           engineering. This, combined with a rather unbridled love for design,
           has given me many unique work opportunities.
         </p>
@@ -106,7 +106,7 @@ const Work = () => (
           </h5>
           <p className="WorkText">
             An experiment in collaboration with product managers evolved into
-            this internal tooling. Focused on Pro-users. Designed for larger
+            this internal tooling. Focused on pro users. Designed for larger
             displays.
           </p>
           <img
@@ -135,7 +135,7 @@ const Work = () => (
           </h5>
           <p className="WorkText">
             To offer an undistracted reading environment and a better discovery
-            experience. Done using websafe fonts only.
+            experience. Done using only websafe fonts.
           </p>
           <img className="CardImage" src={require("../images/Xook.jpg")} />
         </section>
