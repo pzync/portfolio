@@ -8,8 +8,7 @@ const SecondPage = () => (
     <SEO title="Cabinet" />
     <div className="CabinetContainer">
       <p className="CabinetDesc">
-        An assorted mix of various illustrations, posters, and motion
-        prototypes.
+        An assorted mix of illustrations, posters, and motion prototypes.
       </p>
 
       <div className="Masonry">
@@ -82,6 +81,14 @@ const SecondPage = () => (
         </div>
 
         <div className="Item">
+          <img
+            className="CardImage"
+            src={require("../images/Decision-tree.jpg")}
+          />
+          <p className="CardDesc">Decision tree</p>
+        </div>
+        {/* 
+        <div className="Item">
           <video
             controls
             className="CardImage"
@@ -89,7 +96,7 @@ const SecondPage = () => (
             src={require("../videos/Mandate.mp4")}
           />
           <p className="CardDesc">Mandate management</p>
-        </div>
+        </div> */}
 
         <div className="Item">
           <img className="CardImage" src={require("../images/currying.jpg")} />
@@ -120,14 +127,6 @@ const SecondPage = () => (
             src={require("../images/generative-arcs.jpg")}
           />
           <p className="CardDesc">Generative arcs</p>
-        </div>
-
-        <div className="Item">
-          <img
-            className="CardImage"
-            src={require("../images/Decision-tree.jpg")}
-          />
-          <p className="CardDesc">Decision tree</p>
         </div>
 
         <div className="Item">
