@@ -49,15 +49,6 @@ const SecondPage = () => (
         </div>
 
         <div className="Item">
-          <video
-            controls
-            className="CardImage"
-            src={require("../videos/framer-motion.mp4")}
-          />
-          <p className="CardDesc">Mobile-first animation in React</p>
-        </div>
-
-        <div className="Item">
           <img
             className="CardImage"
             src={require("../images/delivery-illo.jpg")}
@@ -87,16 +78,15 @@ const SecondPage = () => (
           />
           <p className="CardDesc">Decision tree</p>
         </div>
-        {/* 
+
         <div className="Item">
           <video
             controls
             className="CardImage"
-            poster={require("../images/Mandate-poster.jpg")}
-            src={require("../videos/Mandate.mp4")}
+            src={require("../videos/framer-motion.mp4")}
           />
-          <p className="CardDesc">Mandate management</p>
-        </div> */}
+          <p className="CardDesc">Mobile-first animation in React</p>
+        </div>
 
         <div className="Item">
           <img className="CardImage" src={require("../images/currying.jpg")} />
