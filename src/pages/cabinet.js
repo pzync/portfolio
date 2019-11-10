@@ -29,7 +29,7 @@ const SecondPage = () => (
           <p className="CardDesc">
             Generative Machine{" "}
             <span style={{ fontWeight: `normal` }}>
-              (Mathew Epler's work implemented using composition)
+              (Ruth Lin's work implemented using composition)
             </span>
           </p>
         </div>
@@ -60,7 +60,7 @@ const SecondPage = () => (
 
         <div className="Item">
           <img
-            className="CardImage ImageBorder"
+            className="CardImage"
             src={require("../images/delivery-illo.jpg")}
           />
           <p className="CardDesc">Pay on delivery illustration</p>
@@ -131,10 +131,7 @@ const SecondPage = () => (
         </div>
 
         <div className="Item">
-          <img
-            className="CardImage ImageBorder"
-            src={require("../images/isometric.jpg")}
-          />
+          <img className="CardImage" src={require("../images/isometric.jpg")} />
           <p className="CardDesc">Isometric illustration</p>
         </div>
       </div>
