@@ -68,7 +68,7 @@ const SecondPage = () => (
 
         <div className="Item">
           <img className="CardImage" src={require("../images/Function.jpg")} />
-          <p className="CardDesc">Function definition</p>
+          <p className="CardDesc">Function</p>
         </div>
 
         <div className="Item">
@@ -113,11 +113,19 @@ const SecondPage = () => (
 
         <div className="Item">
           <img
+            className="CardImage ImageBorder"
+            src={require("../images/functor.jpg")}
+          />
+          <p className="CardDesc">Functor</p>
+        </div>
+
+        {/* <div className="Item">
+          <img
             className="CardImage"
             src={require("../images/generative-arcs.jpg")}
           />
           <p className="CardDesc">Generative arcs</p>
-        </div>
+        </div> */}
 
         <div className="Item">
           <img className="CardImage" src={require("../images/isometric.jpg")} />
