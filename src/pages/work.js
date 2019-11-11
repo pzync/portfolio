@@ -47,16 +47,15 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Conceptualized the first-ever UI for UPI onboarding{" "}
+            Wrote & designed Juspay website for clearer brand recall{" "}
           </h5>
           <p className="WorkText">
-            This flow has now become a standard for millions of users and all
-            banks across India. Also 80 million+ installs of UPI Auth Library we
-            designed.
+            With the aim of communicating Juspay's market positioning to
+            merchants and scale to investors more effectively.
           </p>
           <img
-            className="CardImage"
-            src={require("../images/UPI-onboarding.jpg")}
+            className="CardImage ImageBorder"
+            src={require("../images/Juspay-website.jpg")}
           />
         </section>
 
@@ -87,21 +86,6 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Helped build Juspay's Checkout ecosystem of products{" "}
-          </h5>
-          <p className="WorkText">
-            An adaptive design system of flows & components. Clients include
-            some of India's largest grocery e-tailers, telecom firms and food
-            delivery apps.
-          </p>
-          <img
-            className="CardImage"
-            src={require("../images/Desktop-checkout.jpg")}
-          />
-        </section>
-
-        <section className="CenteredTextContent WorkSection">
-          <h5 className="WorkHighlight">
             Reimagined the Session Log to visualize user journeys{" "}
           </h5>
           <p className="WorkText">
@@ -117,27 +101,43 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Wrote & designed Juspay website for clearer brand recall{" "}
+            Conceptualized the first-ever UI for UPI onboarding{" "}
           </h5>
           <p className="WorkText">
-            With the aim of communicating Juspay's market positioning to
-            merchants and scale to investors more effectively.
+            This flow has now become a standard for millions of users and all
+            banks across India. Also 80 million+ installs of UPI Auth Library we
+            designed.
           </p>
           <img
-            className="CardImage ImageBorder"
-            src={require("../images/Juspay-website.jpg")}
+            className="CardImage"
+            src={require("../images/UPI-onboarding.jpg")}
           />
         </section>
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Designed a webapp for book quotes and annotations{" "}
+            Crafted a webapp for book quotes and annotations{" "}
           </h5>
           <p className="WorkText">
             To offer an undistracted reading environment and a better discovery
             experience. Done using only websafe fonts.
           </p>
           <img className="CardImage" src={require("../images/Xook.jpg")} />
+        </section>
+
+        <section className="CenteredTextContent WorkSection">
+          <h5 className="WorkHighlight">
+            Directed Juspay's Checkout ecosystem of products{" "}
+          </h5>
+          <p className="WorkText">
+            An adaptive design system of flows & components. Clients include
+            some of India's largest grocery e-tailers, telecom firms and food
+            delivery apps.
+          </p>
+          <img
+            className="CardImage"
+            src={require("../images/Desktop-checkout.jpg")}
+          />
         </section>
 
         <section className="CenteredTextContent WorkSection">
@@ -165,7 +165,7 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Crafted an early prototype of Consent Architecture for India{" "}
+            Created early prototypes of Consent Architecture for India{" "}
           </h5>
           <p className="WorkText">
             It's a nation-wide system which would place users firmly in control
