@@ -165,7 +165,7 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Created early prototypes of Consent Architecture for India{" "}
+            Crafted an early prototype of Consent Architecture for India{" "}
           </h5>
           <p className="WorkText">
             It's a nation-wide system which would place users firmly in control
