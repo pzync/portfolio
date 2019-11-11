@@ -15,14 +15,6 @@ const SecondPage = () => (
         <div className="Item">
           <img
             className="CardImage"
-            src={require("../images/Abstract-calli.jpg")}
-          />
-          <p className="CardDesc">Abstract Calligraphy</p>
-        </div>
-
-        <div className="Item">
-          <img
-            className="CardImage"
             src={require("../images/generative-machine.jpg")}
           />
           <p className="CardDesc">
@@ -31,6 +23,19 @@ const SecondPage = () => (
               (Ruth Lin's work implemented using composition)
             </span>
           </p>
+        </div>
+
+        <div className="Item">
+          <img className="CardImage" src={require("../images/girhein.jpg")} />
+          <p className="CardDesc">Exploring indic types</p>
+        </div>
+
+        <div className="Item">
+          <img
+            className="CardImage"
+            src={require("../images/Abstract-calli.jpg")}
+          />
+          <p className="CardDesc">Abstract Calligraphy</p>
         </div>
 
         <div className="Item">
@@ -44,8 +49,16 @@ const SecondPage = () => (
         </div>
 
         <div className="Item">
-          <img className="CardImage" src={require("../images/girhein.jpg")} />
-          <p className="CardDesc">Exploring indic types</p>
+          <img className="CardImage" src={require("../images/Function.jpg")} />
+          <p className="CardDesc">Function</p>
+        </div>
+
+        <div className="Item">
+          <img
+            className="CardImage"
+            src={require("../images/Decision-tree.jpg")}
+          />
+          <p className="CardDesc">Decision tree</p>
         </div>
 
         <div className="Item">
@@ -64,19 +77,6 @@ const SecondPage = () => (
             src={require("../videos/Mobile-checkout.mp4")}
           />
           <p className="CardDesc">Mobile checkout</p>
-        </div>
-
-        <div className="Item">
-          <img className="CardImage" src={require("../images/Function.jpg")} />
-          <p className="CardDesc">Function</p>
-        </div>
-
-        <div className="Item">
-          <img
-            className="CardImage"
-            src={require("../images/Decision-tree.jpg")}
-          />
-          <p className="CardDesc">Decision tree</p>
         </div>
 
         <div className="Item">
