@@ -16,6 +16,7 @@ const SecondPage = () => (
           <img
             className="CardImage"
             src={require("../images/generative-machine.jpg")}
+            alt="Generative Machine"
           />
           <p className="CardDesc">
             Generative Machine{" "}
@@ -26,7 +27,11 @@ const SecondPage = () => (
         </div>
 
         <div className="Item">
-          <img className="CardImage" src={require("../images/girhein.jpg")} />
+          <img
+            className="CardImage"
+            src={require("../images/girhein.jpg")}
+            alt="Indic typography poster"
+          />
           <p className="CardDesc">Exploring indic types</p>
         </div>
 
@@ -34,6 +39,7 @@ const SecondPage = () => (
           <img
             className="CardImage"
             src={require("../images/Abstract-calli.jpg")}
+            alt="Abstract calligraphy"
           />
           <p className="CardDesc">Abstract Calligraphy</p>
         </div>
@@ -49,7 +55,11 @@ const SecondPage = () => (
         </div>
 
         <div className="Item">
-          <img className="CardImage" src={require("../images/Function.jpg")} />
+          <img
+            className="CardImage"
+            src={require("../images/Function.jpg")}
+            alt="Function illustration"
+          />
           <p className="CardDesc">Function</p>
         </div>
 
@@ -57,6 +67,7 @@ const SecondPage = () => (
           <img
             className="CardImage"
             src={require("../images/Decision-tree.jpg")}
+            alt="Decision tree illustration"
           />
           <p className="CardDesc">Decision tree</p>
         </div>
@@ -65,6 +76,7 @@ const SecondPage = () => (
           <img
             className="CardImage"
             src={require("../images/delivery-illo.jpg")}
+            alt="Pay on delivery illustration"
           />
           <p className="CardDesc">Pay on delivery illustration</p>
         </div>
@@ -89,7 +101,11 @@ const SecondPage = () => (
         </div>
 
         <div className="Item">
-          <img className="CardImage" src={require("../images/currying.jpg")} />
+          <img
+            className="CardImage"
+            src={require("../images/currying.jpg")}
+            alt="Currying poster"
+          />
           <p className="CardDesc">Currying poster</p>
         </div>
 
@@ -107,6 +123,7 @@ const SecondPage = () => (
           <img
             className="CardImage"
             src={require("../images/Alien-illo.jpg")}
+            alt="Mothership sketch"
           />
           <p className="CardDesc">Mothership</p>
         </div>
@@ -115,6 +132,7 @@ const SecondPage = () => (
           <img
             className="CardImage ImageBorder"
             src={require("../images/functor.jpg")}
+            alt="Functor poster"
           />
           <p className="CardDesc">Functor</p>
         </div>
@@ -128,7 +146,11 @@ const SecondPage = () => (
         </div> */}
 
         <div className="Item">
-          <img className="CardImage" src={require("../images/isometric.jpg")} />
+          <img
+            className="CardImage"
+            src={require("../images/isometric.jpg")}
+            alt="Isometric illustration"
+          />
           <p className="CardDesc">Isometric illustration</p>
         </div>
       </div>

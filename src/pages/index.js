@@ -7,7 +7,7 @@ import Writing from "../components/writing"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="BodyContainer">
+    <main className="BodyContainer">
       <section className="TextContent">
         <h3>
           Hello! I’m a designer and product manager with 8+ years of experience
@@ -25,7 +25,11 @@ const IndexPage = () => (
         </p>
         <p>
           Earlier, I worked as Head of Product at{" "}
-          <a href="https://www.nestaway.com" target="_blank">
+          <a
+            href="https://www.nestaway.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Nestaway
           </a>
           , a 1200-people company with USD 105 million investment from Tiger
@@ -40,7 +44,11 @@ const IndexPage = () => (
         <p>
           I also dabble in generative art using Processing, prototype using code
           and sometimes{" "}
-          <a href="https://twitter.com/themeanstartup" target="_blank">
+          <a
+            href="https://twitter.com/themeanstartup"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {" "}
             draw
           </a>{" "}
@@ -48,11 +56,19 @@ const IndexPage = () => (
         </p>
         <p>
           Feel free to reach out on{" "}
-          <a href="http://twitter.com/ShekharGurav" target="_blank">
+          <a
+            href="http://twitter.com/ShekharGurav"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             twitter
           </a>{" "}
           &{" "}
-          <a href="http://in.linkedin.com/in/ShekharGurav" target="_blank">
+          <a
+            href="http://in.linkedin.com/in/ShekharGurav"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             linkedIn
           </a>
           .
@@ -79,7 +95,7 @@ const IndexPage = () => (
           link="https://medium.com/white-space/5-learnings-every-product-designer-should-absolutely-steal-from-studio-ghibli-movies-6c3971fffa0?source=your_stories_page---------------------------"
         />
       </section>
-    </div>
+    </main>
   </Layout>
 )
 

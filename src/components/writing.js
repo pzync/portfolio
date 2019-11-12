@@ -4,12 +4,12 @@ import React from "react"
 import "./writing.css"
 
 const Writing = props => (
-  <div className="Writing">
-    <a href={props.link} target="_blank">
+  <article className="Writing">
+    <a href={props.link} target="_blank" rel="noopener noreferrer">
       <h6 className="ArticleTitle"> {props.title}</h6>
       <p className="ArticleDesc">{props.desc}</p>
     </a>
-  </div>
+  </article>
 )
 
 export default Writing

@@ -42,6 +42,7 @@ const Work = () => (
           <img
             className="CardImage ImageBorder"
             src={require("../images/Bhim-app.jpg")}
+            alt="BHIM App"
           />
         </section>
 
@@ -56,6 +57,7 @@ const Work = () => (
           <img
             className="CardImage ImageBorder"
             src={require("../images/Juspay-website.jpg")}
+            alt="Juspay Website"
           />
         </section>
 
@@ -72,14 +74,17 @@ const Work = () => (
             <img
               className="CardImage TallImage"
               src={require("../images/Godel-redesign.jpg")}
+              alt="Godel Redesign"
             />
             <img
               className="CardImage WideImage"
               src={require("../images/Godel-manual.jpg")}
+              alt="Godel manual entry"
             />
             <img
               className="CardImage WideImage"
               src={require("../images/Godel-otp.jpg")}
+              alt="Godel OTP"
             />
           </div>
         </section>
@@ -96,6 +101,7 @@ const Work = () => (
           <img
             className="CardImage"
             src={require("../images/Session-log.jpg")}
+            alt="Session log dashboard"
           />
         </section>
 
@@ -111,6 +117,7 @@ const Work = () => (
           <img
             className="CardImage"
             src={require("../images/UPI-onboarding.jpg")}
+            alt="UPI onboarding"
           />
         </section>
 
@@ -122,7 +129,11 @@ const Work = () => (
             To offer an undistracted reading environment and a better discovery
             experience. Done using only websafe fonts.
           </p>
-          <img className="CardImage" src={require("../images/Xook.jpg")} />
+          <img
+            className="CardImage"
+            src={require("../images/Xook.jpg")}
+            alt="Book quotes webapp"
+          />
         </section>
 
         <section className="CenteredTextContent WorkSection">
@@ -137,6 +148,7 @@ const Work = () => (
           <img
             className="CardImage"
             src={require("../images/Desktop-checkout.jpg")}
+            alt="Juspay's Checkout ecosystem of products"
           />
         </section>
 
@@ -149,7 +161,11 @@ const Work = () => (
             at Nestaway. Directed design and content for PR and marketing
             campaigns.
           </p>
-          <img className="CardImage" src={require("../images/Nestaway.jpg")} />
+          <img
+            className="CardImage"
+            src={require("../images/Nestaway.jpg")}
+            alt="Nestaway work"
+          />
         </section>
 
         <section className="CenteredTextContent WorkSection">
@@ -182,33 +198,6 @@ const Work = () => (
           </h5>
           <p className="WorkText">To be launched across India and Europe.</p>
         </section>
-        {/* <section className="WorkSection">
-          <div className="CenteredTextContent">
-            <h5 className="WorkHighlight">
-              WhatsApp P2P money transfer & the UPI Common Library{" "}
-            </h5>
-            <p className="WorkText">
-              80 million installs of UPI Common Library. Projected userbase ~
-              200 million. WhatsApp transfer beta launched to a million users.
-            </p>
-          </div>
-          <div className="WorkSubSection CenteredTextContent">
-            <div className="FirstHalf">
-              <img
-                className="CardImage"
-                src={require("../images/Bhim-app.jpg")}
-              />
-              <h6>WhatsApp P2P Money Transfer</h6>
-            </div>
-            <div className="LastHalf">
-              <img
-                className="CardImage"
-                src={require("../images/Bhim-app.jpg")}
-              />
-              <h6>UPI Common Library</h6>
-            </div>
-          </div>
-        </section> */}
       </div>
     </div>
   </Layout>
