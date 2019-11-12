@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
           </Link>
         </h1>
       </div>
-      <div className="SiteNav">
+      <nav className="SiteNav">
         <Link to="/work" className="NavLink">
           Work
         </Link>
@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/cabinet" className="NavLink">
           Cabinet
         </Link>
-      </div>
+      </nav>
     </div>
   </header>
 )
