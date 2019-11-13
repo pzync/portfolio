@@ -77,12 +77,12 @@ const Work = () => (
               alt="Godel Redesign"
             />
             <img
-              className="CardImage WideImage"
+              className="CardImage TopRightImage"
               src={require("../images/Godel-manual.jpg")}
               alt="Godel manual entry"
             />
             <img
-              className="CardImage WideImage"
+              className="CardImage BottomRightImage"
               src={require("../images/Godel-otp.jpg")}
               alt="Godel OTP"
             />

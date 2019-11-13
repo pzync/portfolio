@@ -44,12 +44,16 @@
 
 .ImageHalfGrid {
   display: grid;
-  grid-gap: 20px;
+  grid-column-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .TallImage {
   grid-row: span 2;
+}
+
+.BottomRightImage {
+  align-self: end;
 }
 
 /* for mobile devices */
