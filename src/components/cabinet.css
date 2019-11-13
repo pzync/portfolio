@@ -10,12 +10,6 @@
   column-gap: 40px;
 }
 
-@media (max-width: 840px) {
-  .Masonry {
-    column-count: 2;
-  }
-}
-
 .Item {
   display: inline-block;
   margin: 0 0 12px;
@@ -37,4 +31,27 @@
 video:focus {
   /* removes the blue highlight on playing */
   outline: none;
+}
+
+/* for tablets in portrait */
+@media (max-width: 840px) {
+  .Masonry {
+    column-count: 2;
+  }
+}
+
+/* for mobile devices */
+@media only screen and (max-width: 480px) {
+  .CabinetContainer {
+    padding: 20px 20px 80px;
+  }
+
+  .Masonry {
+    column-count: 1;
+    column-gap: 20px;
+  }
+
+  .CardDesc {
+    margin: 8px 0;
+  }
 }
