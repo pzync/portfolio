@@ -6,8 +6,8 @@
 .Writing h6 {
   margin-bottom: 8px;
   font-weight: 600;
-  font-size: 19px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .Writing a {
@@ -22,6 +22,6 @@
 
 .Writing p {
   margin-top: 0;
-  color: #10051d90;
-  line-height: 26px;
+  color: #10051d94;
+  line-height: 28px;
 }

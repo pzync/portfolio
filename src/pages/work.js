@@ -18,7 +18,7 @@ const Work = () => (
         <p>
           Together, with some amazing teams, we have developed products that
           millions use every day and crafted stories & brands which are still
-          going strong. I have also collaborated directly with founders on many
+          going strong. I've also collaborated directly with founders on many
           successful fundraising pitches.
         </p>
 

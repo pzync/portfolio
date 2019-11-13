@@ -13,30 +13,29 @@
 
 .SectionHeading {
   text-transform: uppercase;
-  color: #09051d60;
   letter-spacing: 0.2em;
-  font-size: 13px;
+  color: #09051d56;
+  font-size: 12px;
+  font-weight: 700;
   margin-top: 80px;
 }
 
 .WorkHighlight {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 23px;
+  line-height: 33px;
   font-weight: 800;
   margin-bottom: 8px;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.01em;
 }
 
 .WorkText {
-  color: #10051d90;
+  color: #10051d94;
   margin-top: 8px;
 }
 
 .CardImage {
   width: 100%;
   height: auto;
-
-  /* margin-bottom: 40px; */
 }
 
 .ImageBorder {
@@ -52,117 +51,8 @@
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-auto-flow: rows; */
-  /* grid-auto-rows: auto; */
 }
 
 .TallImage {
   grid-row: span 2;
 }
-
-/* .WorkSubSection {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
-}
-
-.WorkSubSection h6 {
-  margin-bottom: 8px;
-  margin-top: 8px;
-  font-weight: 600;
-  font-size: 16px;
-} */
-
-/* .FirstHalf,
-.LastHalf {
-  padding: 40px 40px;
-} */
-
-/* 
-.WorkContainer {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 40px 40px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 32px;
-  grid-row-gap: 80px;
-  opacity: 0;
-  animation: EnterAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
-.FirstOneThirdCol h4 {
-  font-size: 32px;
-  font-weight: 200;
-  line-height: 40px;
-  margin-top: 0;
-}
-
-
-
-.FirstOneThirdCol {
-  grid-column: 1 / span 4;
-}
-
-.LastTwoThirdCol {
-  grid-column: 5 / span 8;
-}
-
-.LastTwoThirdCol img {
-  width: 100%;
-  height: auto;
-}
-
-.WorkCard .CardTitle {
-  font-weight: 600;
-}
-
-.WorkCard .CardDesc {
-  color: #10051d90;
-}
-
-.FullWidthCol {
-  grid-column: 1 / -1;
-}
-
-.FullWidthCol img {
-  max-width: 1000px;
-  width: 100%;
-  height: auto;
-}
-
-.FirstHalfCol {
-  grid-column: 1 / span 6;
-}
-
-.FirstHalfCol img {
-  width: 100%;
-  height: auto;
-}
-
-.LastHalfCol {
-  grid-column: 7 / span 6;
-}
-
-.LastHalfCol img {
-  width: 100%;
-  height: auto;
-}
-
-.FirstTwoThirdCol {
-  grid-column: 1 / span 8;
-}
-
-.FirstTwoThirdCol img {
-  width: 100%;
-  height: auto;
-}
-
-.LastOneThirdCol {
-  grid-column: 9 / span 4;
-}
-
-.LastOneThirdCol img {
-  width: 100%;
-  height: auto;
-} */

@@ -1,14 +1,14 @@
+@import url("https://rsms.me/inter/inter.css");
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 19px;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 28px;
   color: #10051d;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* max-width: 100vw; */
   text-rendering: optimizeLegibility;
 }
 
@@ -36,17 +36,11 @@ body {
 }
 
 .TextContent h3 {
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 23px;
+  line-height: 33px;
   font-weight: 700;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.01em;
 }
-
-/* .TextContent h3 {
-  font-size: 19px;
-  line-height: 30px;
-  font-weight: 900;
-} */
 
 .TextContent a {
   text-decoration: underline;
@@ -66,7 +60,9 @@ body {
 
 .WritingSection .SectionTitle {
   text-transform: uppercase;
-  color: #09051d60;
+  color: #09051d56;
+  font-size: 12px;
+  font-weight: 700;
   letter-spacing: 0.2em;
   margin-top: 0;
   margin-bottom: 20px;

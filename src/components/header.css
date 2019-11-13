@@ -20,18 +20,15 @@
 }
 
 .SiteNav {
-  /* max-width: 30vw; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 30px 0;
-  /* justify-self: end;
-  align-items: end; */
 }
 
 .SiteNav a {
   color: #10051d;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   margin: 10px 40px;
 }
