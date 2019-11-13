@@ -25,14 +25,17 @@ body {
 }
 
 .BodyContainer {
+  max-width: 680px;
+  margin: 40px auto;
+  padding: 40px 40px;
   opacity: 0;
   animation: EnterAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .TextContent {
-  max-width: 680px;
+  /* max-width: 680px;
   margin: 40px auto 0 auto;
-  padding: 40px 40px;
+  padding: 40px 40px; */
 }
 
 .TextContent h3 {
@@ -53,9 +56,9 @@ body {
 }
 
 .WritingSection {
-  max-width: 680px;
+  /* max-width: 680px;
   margin: 0 auto;
-  padding: 40px 40px 120px 40px;
+  padding: 40px 40px 120px 40px; */
 }
 
 .WritingSection .SectionTitle {
@@ -64,6 +67,6 @@ body {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.2em;
-  margin-top: 0;
+  margin-top: 80px;
   margin-bottom: 20px;
 }
