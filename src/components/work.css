@@ -60,7 +60,7 @@
 
 @media only screen and (max-width: 480px) {
   .WorkContainer {
-    padding: 40px 20px;
+    padding: 0 20px 80px;
   }
 
   .WorkHighlight {

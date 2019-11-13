@@ -43,7 +43,11 @@ video:focus {
 /* for mobile devices */
 @media only screen and (max-width: 480px) {
   .CabinetContainer {
-    padding: 20px 20px 80px;
+    padding: 0 20px 80px;
+  }
+
+  .CabinetDesc {
+    margin: 40px 0 40px;
   }
 
   .Masonry {
