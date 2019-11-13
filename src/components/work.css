@@ -1,11 +1,12 @@
 .CenteredTextContent {
-  max-width: 680px;
-  margin: 0 auto;
+  /* max-width: 680px; */
+  /* margin: 0 auto; */
   /* padding: 0 40px; */
 }
 
 .WorkContainer {
   /* max-width: 800px; */
+  max-width: 680px;
   margin: 40px auto;
   padding: 40px 40px;
   animation: EnterAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
