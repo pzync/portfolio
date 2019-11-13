@@ -23,5 +23,13 @@
 .Writing p {
   margin-top: 0;
   color: #10051d94;
-  line-height: 28px;
+}
+
+/* for mobile devices */
+
+@media only screen and (max-width: 480px) {
+  .Writing h6 {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
