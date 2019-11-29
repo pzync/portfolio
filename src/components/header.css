@@ -8,15 +8,15 @@
 }
 
 .HeaderGroup a:hover {
-  color: #0000ff;
+  color: #0040ff;
 }
 
 .HeaderGroup a:focus {
-  color: #0000ff;
+  color: #0040ff;
 }
 
 .HeaderGroup a:active {
-  color: #0000ff;
+  color: #0040ff;
 }
 
 .SiteTitle {
@@ -71,42 +71,3 @@
     text-decoration: underline;
   }
 }
-
-/* .SiteTitle {
-  font-weight: 900;
-  font-size: 24px;
-  color: #10051d25;
-  text-decoration: none;
-  padding-left: 32px;
-}
-
-.HeaderGroup {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  padding: 0 40px;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.HeaderGroup a:hover {
-  color: #0000ff;
-}
-
-.SiteNav {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 30px 0;
-}
-
-.SiteNav a {
-  color: #10051d;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 400;
-  margin: 10px 40px;
-}
-
-.SiteNav a:hover {
-  color: #0000ff;
-} */
