@@ -9,11 +9,14 @@ const IndexPage = () => (
     <SEO title="Home" />
     <main className="BodyContainer">
       <section className="TextContent">
-        <h3>
+        <p className="HeroItalic">Designer & PM who crafts</p>
+        <p className="HeroMassive">massive scale products.</p>
+        <div className="HeroSeparator"></div>
+        <p>
           Hello! I’m a designer and product manager with 8+ years of experience
           across product creation, user experience (UI/UX) & creative direction.
           Currently, I head design at Juspay.
-        </h3>
+        </p>
         <p>
           At Juspay, I’ve led the design of BHIM app which processes
           transactions worth INR 5 billion+ per month. I also worked on
@@ -36,9 +39,9 @@ const IndexPage = () => (
           Global, Yuri Milner & Tata. I also founded The Playce, one of the
           largest coworking spaces in India that's still growing.
         </p>
-        <p>
+        <p className="SummaryBlock">
           Overall, I have built and led teams both large and small, shipped
-          massive-scale products on challenging timelines and founded a
+          billions-scale products on challenging timelines and founded a
           successful business.
         </p>
         <p>

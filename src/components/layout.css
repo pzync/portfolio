@@ -1,4 +1,5 @@
 @import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 
 html,
 body {
@@ -38,6 +39,39 @@ body {
   line-height: 33px;
   font-weight: 700;
   letter-spacing: -0.01em;
+}
+
+.TextContent .HeroItalic {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  color: #ff4040;
+  margin-bottom: 0;
+}
+
+.TextContent .HeroMassive {
+  font-size: 88px;
+  line-height: 80px;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 40px;
+  margin-left: -4px;
+  letter-spacing: -0.01em;
+}
+
+.TextContent .HeroSeparator {
+  height: 6px;
+  width: 40px;
+  background-color: #ff4040;
+  margin-bottom: 60px;
+}
+
+.TextContent .SummaryBlock {
+  background-color: #f2f2f2;
+  padding: 16px 20px;
+  margin: 20px 0;
+  border-left: 6px solid #ddd;
 }
 
 .TextContent a {
