@@ -9,7 +9,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <main className="BodyContainer">
       <section className="TextContent">
-        <p className="HeroItalic">Designer & PM who crafts</p>
+        <p className="HeroItalic">Designer & PM working on</p>
         <p className="HeroMassive">massive scale products.</p>
         <div className="HeroSeparator"></div>
         <p>
