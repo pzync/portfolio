@@ -10,7 +10,7 @@ const Work = () => (
     <div className="WorkContainer">
       <section className="CenteredTextContent">
         <p>
-          I have an education in management (MBA from IIM Bangalore) and
+          My academic background is in management (MBA from IIM Bangalore) and
           engineering. This, combined with a rather unbridled love for design,
           has given me many unique work opportunities.
         </p>
@@ -66,7 +66,7 @@ const Work = () => (
             Redesigned a payment flow that does 6 million txn per day{" "}
           </h5>
           <p className="WorkText">
-            Upto 2% jump in success rates with less decision burden and
+            Upto 5% jump in success rates with less decision burden and
             transaction time. Clients include Zomato, Myntra, Swiggy, Flipkart
             et al.
           </p>
@@ -107,11 +107,11 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Conceptualized the first-ever UI for UPI onboarding{" "}
+            Crafted the first ever UI for a nation-wide banking system{" "}
           </h5>
           <p className="WorkText">
-            This flow has now become a standard for millions of users and all
-            banks across India. Also 80 million+ installs of UPI Auth Library we
+            This design is now the official standard for millions of users and all
+            banks across India. Also 100 million+ installs of UPI Auth Library we
             designed.
           </p>
           <img
@@ -123,7 +123,7 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Crafted a webapp for book quotes and annotations{" "}
+          Conceptualized a webapp for book quotes and annotations{" "}
           </h5>
           <p className="WorkText">
             To offer an undistracted reading environment and a better discovery
@@ -138,12 +138,12 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Directed Juspay's Checkout ecosystem of products{" "}
+            Directed a product ecosystem touching 10 Mn+ users / day {" "}
           </h5>
           <p className="WorkText">
-            An adaptive design system of flows & components. Clients include
+            Clients  include
             some of India's largest grocery e-tailers, telecom firms and food
-            delivery apps.
+            delivery apps. More than 3 billion payments processed so far.
           </p>
           <img
             className="CardImage"
@@ -154,11 +154,11 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Led product + creative at a $100-million funded company{" "}
+            Led product + creative at a $105-million funded company{" "}
           </h5>
           <p className="WorkText">
             Worked on developing products for tenants, house-owners, and agents
-            at Nestaway. Directed design and content for PR and marketing
+            at Nestaway. Directed design and content for PR & marketing
             campaigns.
           </p>
           <img
@@ -174,8 +174,8 @@ const Work = () => (
           </h5>
           <p className="WorkText">
             This will be the largest learning management platform for teachers
-            across India and Southeast Asia. I consulted on the initial product
-            designs for web & mobile.
+            across India & Southeast Asia. I consulted on the initial product
+            designs.
           </p>
         </section>
 
@@ -184,7 +184,7 @@ const Work = () => (
             Crafted an early prototype of Consent Architecture for India{" "}
           </h5>
           <p className="WorkText">
-            It's a nation-wide system which would place users firmly in control
+            An India-wide system to place users firmly in control
             of their data. Upon request from service providers (insurance,
             credit etc), the user can grant access to only the required data.
             And that too for a restricted period.

@@ -19,12 +19,11 @@ const IndexPage = () => (
         </p>
         <p>
           At Juspay, I’ve led the design of BHIM app which processes
-          transactions worth INR 5 billion+ per month. I also worked on
-          designing the UPI Common Library. This library is currently installed
-          on 80 million devices; which would become 200 million with inclusion
-          in WhatsApp soon. Various other Juspay products process 6 million+
+          transactions worth INR 5 billion+ per month. It's the #8 fintech app in the world. I also worked on
+          designing the UPI Common Library that's currently installed
+          on over 100 million devices. The Juspay suite of products process 20 million+
           transactions per day and count Amazon, Uber, Visa, Myntra, Flipkart,
-          Vodafone and Ola as customers.
+          Vodafone, and Ola as customers.
         </p>
         <p>
           Earlier, I worked as Head of Product at{" "}
@@ -36,12 +35,12 @@ const IndexPage = () => (
             Nestaway
           </a>
           , a 1200-people company with USD 105 million investment from Tiger
-          Global, Yuri Milner & Tata. I also founded The Playce, one of the
+          Global, DST & Tata. I also founded The Playce, one of the
           largest coworking spaces in India that's still growing.
         </p>
         <p className="SummaryBlock">
           Overall, I have built and led teams both large and small, shipped
-          billions-scale products on challenging timelines and founded a
+          billion-scale products on challenging timelines and founded a
           successful business.
         </p>
         <p>
@@ -93,7 +92,7 @@ const IndexPage = () => (
           link="https://medium.com/p/95c7221c1512"
         />
         <Writing
-          title="Studio Ghibli And Good Product Design"
+          title="5 Product Design Lessons From Studio Ghibli Movies"
           desc="Because great animated movies have a lot to teach."
           link="https://medium.com/white-space/5-learnings-every-product-designer-should-absolutely-steal-from-studio-ghibli-movies-6c3971fffa0?source=your_stories_page---------------------------"
         />
