@@ -27,19 +27,19 @@ body {
 }
 
 .BodyContainer {
-  max-width: 680px;
+  max-width: 640px;
   margin: 40px auto;
   padding: 40px 40px;
   opacity: 0;
   animation: EnterAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.TextContent h3 {
-  font-size: 23px;
-  line-height: 33px;
+/* .TextContent h3 {
+  font-size: 22px;
+  line-height: 32px;
   font-weight: 700;
   letter-spacing: -0.01em;
-}
+} */
 
 .TextContent .HeroItalic {
   font-family: "Roboto Mono", monospace;
