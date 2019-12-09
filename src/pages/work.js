@@ -154,12 +154,12 @@ const Work = () => (
 
         <section className="CenteredTextContent WorkSection">
           <h5 className="WorkHighlight">
-            Led product + creative at a $105-million funded company{" "}
+            Led product & design at a $105-million funded company{" "}
           </h5>
           <p className="WorkText">
             Worked on developing products for tenants, house-owners, and agents
             at Nestaway. Directed design and content for PR & marketing
-            campaigns.
+            as well.
           </p>
           <img
             className="CardImage"
